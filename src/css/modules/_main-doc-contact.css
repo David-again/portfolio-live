@@ -1,0 +1,40 @@
+.main-doc-contact {
+    background-color: $themeMedium;
+    padding: 1rem;
+    @mixin atMedium {
+        padding: 2.5rem;
+    }
+    
+    &__text-content {
+        text-align: justify;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+
+    &__icon {
+        color: $themeDark;
+        font-size: 2rem;
+        padding: 1.2rem;
+        /* @media(min-width: 640px) { */
+        @mixin atMedium {
+            font-size: 2.5rem;
+            padding: 1.2rem 2rem;
+            border-radius: 15% 40%;
+            /* border: solid 2px; */
+        }
+        
+        &:hover {
+            color: $themeLight;
+            background-color: $themeDark;
+        }
+    }
+
+    &__copyright {
+        margin: 0;
+        font-size: 0.75rem;
+        padding-bottom: 1rem;
+    }
+}
+
