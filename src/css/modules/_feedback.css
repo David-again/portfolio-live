@@ -24,6 +24,8 @@
     color: $themeLight;
     padding: 7px;
     margin-top: 10px;
+    width: 100%;
+    display: block;
 
     &:hover {
         color: #fff;
