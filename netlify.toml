@@ -2,7 +2,7 @@
 # All deploys from the main repository branch
 # will inherit these settings.
 [context.production]
-  command = "make production"
+  command = "npm run build"
   [context.production.environment]
     ACCESS_TOKEN = "super secret"
 
@@ -22,7 +22,7 @@
 # Deploys from this branch will take these settings
 # and override their current ones.
 [context.feature]
-  command = "make feature"
+  command = "npm run build"
 
 [context."features/branch"]
   command = "gulp"
