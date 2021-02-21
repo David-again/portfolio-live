@@ -16,7 +16,7 @@
 # All deploys that are not from a pull/merge request
 # or from the production branch will inherit these settings.
 [context.branch-deploy]
-  command = "make staging"
+  command = "npm run build"
 
 # Specific branch context:
 # Deploys from this branch will take these settings
