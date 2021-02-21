@@ -9,12 +9,12 @@
 
 <body>
     <div class="section-wrapper">
-        <form action="" class="feedback-form">
+        <form name="feedback" method="POST" data-netlify="true" class="feedback-form">
             <div class="feedback-form-content">
                 <h2>Get in touch</h2>
-                <label for="feedback-name">Your Name</label>
+                <label for="feedback-name">Your Name
                 <input type="text" name="feedback-name" id="">
-
+                </label>
                 <label for="feedback-email"> Your email address</label>
                 <input type="email" name="feedback-email" id="">
 
@@ -24,7 +24,8 @@
                 <label for="feedback-message"> Your message </label>
                 <textarea name="feedback-message" id="" cols="40" rows="10"></textarea>
 
-                <input type="submit" value="Send Feedback" class="feedback-submit-button">
+                <!-- <input type="submit" value="Send Feedback" class="feedback-submit-button"> -->
+                <button type="submit" class="feedback-submit-button">Send Feedback</button>
                 <a href="./index.html">Back to home page</a>
             </div>
         </form>
