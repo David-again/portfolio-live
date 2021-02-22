@@ -5,7 +5,7 @@ $mediumBlue-v1: #0080FF;
 $mediumBlue-v2: #4169E1;
 $mediumBlue-v3: #6495ED;
 $mediumBlue-v4: #89CFF0;
-$mediumBlue-v5: #89CFF0;
+$mediumBlue-v5: #73C2FB;
 
 $lightBlue: #bedcfa;
 
@@ -18,7 +18,7 @@ $lightBrown: #F3EFE0;
 
 /* Globally used color-theme variables are initialized centrally from here */
 $themeDark: $darkBlue;
-$themeMedium: $mediumBlue-v3;
+$themeMedium: $mediumBlue-v5;
 /* $themeLight: $mediumBlue-v3; */
 
 $themeLight: $lightBlue;

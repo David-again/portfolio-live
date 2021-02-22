@@ -353,10 +353,12 @@ template {
 
 /* Globally used color-theme variables are initialized centrally from here */
 
+/* $themeLight: $mediumBlue-v3; */
+
 /* Comment the 3 lines above and uncomment the 3 lines below to change page theme to green. */
 
 /* $themeDark: $darkGreen;
-$themeMedium: $lightGreen;
+$themeMedium: $mediumGreen;
 $themeLight: $lightGreen; */
 
 body {
@@ -371,10 +373,6 @@ body {
     /* font-family: Cardo, Merriweather, 'PT Serif'; */
     /* font-family: 'Montserrat'; */
   }
-
-/* img {
-      max-width: 100%;
-  } */
 
 .section-wrapper {
       max-width: 920px;
@@ -760,7 +758,8 @@ body {
     }
 
 .main-doc-skills {
-    background-color: #F3EFE0;
+    /* background-color: $themeMedium; */
+    background-color: #fff;
     padding: 1rem;
 }
 
@@ -836,7 +835,8 @@ body {
 }
 
 .main-doc-contact {
-    background-color: #F3EFE0;
+    /* background-color: $themeMedium; */
+    background-color: #fff;
     padding: 1rem;
 }
 
@@ -980,17 +980,24 @@ body {
 }
 
 .icon__star--themeMedium {
-    color: #F3EFE0;
+    color: #73C2FB;
 }
 
 .icon__star--themeLight {
     color: #bedcfa;
 }
 
-.feedback-form label, input, textarea {
+/* .feedback-form label, input, textarea {
+} */
+
+.feedback-form input, textarea {
     display:block;
     width: 100%;
-    
+    margin-bottom: 1rem;
+    /* background-color: $themeMedium; */
+    background-color: #fff;
+    border-color: #73C2FB;
+    border-style: none inset groove none;
 }
 
 .feedback-form {
@@ -1050,4 +1057,38 @@ z-index: 1;
 .tooltip:hover .tooltiptext {
 visibility: visible;
 }
+
+/* $header: #5371e1; */
+
+/* $highlight: #5371e1;
+$text: #ffffff; */
+
+.hr-text {
+    font-size: 20px;
+    position: relative;
+    border: 0;
+    height: 1.5em;
+  }
+
+.hr-text:before {
+      content: '';
+      background: linear-gradient(to right, transparent, #153e90, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+
+.hr-text:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: red;
+
+      padding: 0 .5em;
+      line-height: 1.5em;
+      color: #153e90;
+      background-color: #bedcfa;
+    }
 
