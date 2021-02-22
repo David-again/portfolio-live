@@ -5,7 +5,7 @@
     display:block;
     width: 100%;
     margin-bottom: 1rem;
-    background-color: $themeLight;
+    background-color: $themeMedium;
     border-style: none inset groove none;
 }
 

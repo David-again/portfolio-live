@@ -1,5 +1,5 @@
 .main-doc-projects {
-    background-color: $themeMedium;
+    background-color: $themeLight;
     padding: 1rem;
     @mixin atMedium {
         padding: 2.5rem;
