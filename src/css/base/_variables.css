@@ -1,5 +1,12 @@
 /* Color Themes */
 $darkBlue: #153e90;
+
+$mediumBlue-v1: #0080FF;
+$mediumBlue-v2: #4169E1;
+$mediumBlue-v3: #6495ED;
+$mediumBlue-v4: #89CFF0;
+$mediumBlue-v5: #89CFF0;
+
 $lightBlue: #bedcfa;
 
 $darkGreen: #59886b;
@@ -11,11 +18,13 @@ $lightBrown: #F3EFE0;
 
 /* Globally used color-theme variables are initialized centrally from here */
 $themeDark: $darkBlue;
-$themeMedium: $lightBrown;
+$themeMedium: $mediumBlue-v3;
+/* $themeLight: $mediumBlue-v3; */
+
 $themeLight: $lightBlue;
 
 /* Comment the 3 lines above and uncomment the 3 lines below to change page theme to green. */
 
 /* $themeDark: $darkGreen;
-$themeMedium: $lightGreen;
+$themeMedium: $mediumGreen;
 $themeLight: $lightGreen; */
