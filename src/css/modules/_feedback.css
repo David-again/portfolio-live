@@ -5,9 +5,9 @@
     display:block;
     width: 100%;
     margin-bottom: 1rem;
-    /* background-color: $themeMedium; */
-    background-color: #fff;
-    border-color: $themeMedium;
+    background-color: $themeMedium;
+    /* background-color: #fff; */
+    border-color: $themeDark;
     border-style: none inset groove none;
 }
 
