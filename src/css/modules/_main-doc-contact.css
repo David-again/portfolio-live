@@ -1,5 +1,6 @@
 .main-doc-contact {
-    background-color: $themeMedium;
+    /* background-color: $themeMedium; */
+    background-color: #fff;
     padding: 1rem;
     @mixin atMedium {
         padding: 2.5rem;
