@@ -84,7 +84,12 @@
                     <!-- <p> Here are some technologies that I have experience working with: </p> -->
                     A <em><strong> JavaScript Developer</strong></em>, I work mostly with Node.JS and ReactJS on the front-end side of things. <br> I remain open to (and continue to develop myself in) other technologies depending on the problem of the
                     day.
+
                     <div class="skills-container">
+
+                        <!-- Following div to be used for a React Component -->
+                        <!-- <div id="skill-item"></div> -->
+
                         <ul class="skills-list">
                             <li><span class="skill-title"> JavaScript (ES6+) </span>
                                 <span class="skill-rating">
@@ -326,10 +331,10 @@
                         <li>I am open to critical input and <em><strong>enjoy collaboration;</strong></em> Please <a href="#contact">get in touch directly</a>.</li>
                     </ul>
                 </div>
-                <hr>
+                <!-- <hr> -->
 
                 <div class="projects-container">
-                    <h3>CURRENT PROJECTS</h3>
+                    <hr class="hr-text" data-content="CURRENT PROJECTS">
                     <!-- Icon for My Portfolio source code on github. -->
                     <a href="https://github.com/David-again/portfolio-webpack" target="_blank">
                         <div class="main-doc-projects__project-icon">
@@ -375,6 +380,10 @@
                         </div>
                     </a>
 
+
+
+                    <!-- Future Projects  -->
+                    <hr class="hr-text" data-content="FUTURE PROJECTS">
                     <!-- Air Traffic Control Simulator Project  -->
                     <a href="https://github.com/David-again/ATCSim_Legacy#air-traffic-control-simulation-application" target="_blank">
                         <div class="main-doc-projects__project-icon">
@@ -390,9 +399,6 @@
                         </div>
                     </a>
 
-                    <!-- Future Projects  -->
-                    <hr>
-                    <h3>FUTURE PROJECTS</h3>
                     <!-- Boarding Pass Project  -->
                     <a href="#" class="under-construction">
                         <div class="main-doc-projects__project-icon">
@@ -407,38 +413,6 @@
                             </div>
                         </div>
                     </a>
-
-                    <!-- Icon for Landing Page Project -->
-                    <a href="#" class="under-construction">
-                        <div class="main-doc-projects__project-icon">
-                            <img class="main-doc-projects__project-icon--preview-image lazyload" data-src="images/projects/02-landing-page-2.jpg" alt="LandingPage Thumbnail">
-                            <i class="main-doc-projects__project-icon--popout-icon fas fa-external-link-alt"></i>
-                            <div class="main-doc-projects__project-icon--overlay">
-                                <div class="main-doc-projects__project-icon--text-content">
-                                    <h2>Product Landing Page</h2>
-                                    <hr>
-                                    <p> Main Landing Page for advertising a product. Part of a larger vendor website under development.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Icon for Documentation Project. -->
-                    <a href="#" class="under-construction">
-                        <div class="main-doc-projects__project-icon">
-                            <img class="main-doc-projects__project-icon--preview-image lazyload" data-src="images/projects/04-tech-documentation-3.jpg" alt="Documentation Thumbnail">
-                            <i class="main-doc-projects__project-icon--popout-icon fas fa-external-link-alt"></i>
-                            <div class="main-doc-projects__project-icon--overlay">
-                                <div class="main-doc-projects__project-icon--text-content">
-                                    <h2>Tech. Documentation</h2>
-                                    <hr>
-                                    <p> A simple but structured Technical Documentation page for a hypothetical product. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-
-
                 </div>
             </div>
         </div>
@@ -447,9 +421,11 @@
         <div class="main-doc-contact" id="contact">
             <div class="section-wrapper">
                 <div class="main-doc-contact__text-content">
-                    <!-- React Section -->
-                    <!-- Used for collecting Feedback -->
-                    <div id="main-doc-react"></div>
+                    <h2>Contact</h2>
+                    <p>Wanna get in touch? Please use the feedback form below.</p>
+
+                    <!-- Feedback Form implemented as a React Component -->
+                    <div id="contact-form"></div>
                 </div>
 
 
@@ -457,25 +433,20 @@
                     <i class="icon__contact--themeDark fas fa-envelope"></i>
                 </a>
                 <a href="https://github.com/David-again" target="_blank">
+                    <!-- <div class="tooltip"> -->
                     <i class="icon__contact--themeDark fab fa-github"></i>
+                    <!-- <span class="tooltiptext">Repository</span>
+                    </div> -->
                 </a>
                 <a href="https://www.linkedin.com/in/seyiogunbanjo/" target="_blank">
                     <i class="icon__contact--themeDark fab fa-linkedin-in"></i>
                 </a>
 
-                <a href="./feedback.html">
-                    <!-- This links to a static feedback page (...will probably be changed to a react route in the future) -->
-                    <!-- <div class="tooltip"> -->
-                    <!-- <i class="icon__contact--themeDark fas fa-comment-alt"></i> -->
-                    <i class="icon__contact--themeDark fas fa-comments"></i>
-                    <!-- <span class="tooltiptext">Feedback</span>
-                    </div> -->
-
-                    <p class="main-doc-contact__copyright"> &copy 2020 -
-                        <script>
-                            document.write(new Date().getFullYear())
-                        </script> Copyright <em>CodeDemon </em>
-                    </p>
+                <p class="main-doc-contact__copyright"> &copy 2020 -
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> Copyright <em>CodeDemon </em>
+                </p>
             </div>
         </div>
 

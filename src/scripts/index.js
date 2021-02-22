@@ -10,9 +10,9 @@ import MobileMenu from './modules/Mobile-Menu';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactComponent from './modules/ReactComponent';
+import ContactForm from './modules/ContactForm';
 
-ReactDOM.render(<ReactComponent />, document.querySelector("#main-doc-react"));
+ReactDOM.render(<ContactForm />, document.querySelector("#contact-form"));
 
 // new Modal();
 let mobileMenu = new MobileMenu();
