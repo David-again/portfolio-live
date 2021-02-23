@@ -424,8 +424,17 @@
                     <h2>Contact</h2>
                     <p>Wanna get in touch? Please use the feedback form below.</p>
 
-                    <!-- Feedback Form implemented as a React Component -->
+                    <!-- The following form is used by Netlify for form processing.  -->
+                    <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
+                        <input type="text" name="feedback-name" />
+                        <input type="email" name="feedback-email" />
+                        <input type="text" name="feedback-subject" />
+                        <textarea name="feedback-message"> </textarea>
+                    </form>
+
+                    <!-- Feedback Form UI is implemented as a React Component [See "./src/scripts/modules/ContactForm.js"] -->
                     <div id="contact-form"></div>
+
                 </div>
 
 
