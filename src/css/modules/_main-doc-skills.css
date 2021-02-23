@@ -1,6 +1,6 @@
 .main-doc-skills {
-    background-color: $themeMedium;
-    /* background-color: #fff; */
+    /* background-color: $themeMedium; */
+    background-color: #fff;
     padding: 1rem;
     /* @media(min-width: 640px) { */
     @mixin atMedium {
