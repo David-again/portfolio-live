@@ -361,6 +361,10 @@ template {
 $themeMedium: $mediumGreen;
 $themeLight: $lightGreen; */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     scroll-behavior: smooth;
@@ -1001,7 +1005,6 @@ body {
 }
 
 .feedback-form {
-    /* background-color: yellow; */
     padding: 1rem 1rem;
 }
 
@@ -1013,10 +1016,10 @@ body {
     }
 
 .feedback-form-content {
-        text-align: left;
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
     }
 
 .feedback-submit-button {
