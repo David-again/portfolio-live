@@ -11,8 +11,11 @@ import MobileMenu from './modules/Mobile-Menu';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ContactForm from './modules/ContactForm';
+import ConstructionPage from './components/ConstructionPage';
 
 ReactDOM.render(<ContactForm />, document.querySelector("#contact-form"));
+// ReactDOM.render(<ConstructionPage />, document.querySelector("#under-construction-main"));
+// ReactDOM.render(<ConstructionPage />, document.querySelector("#under-construction-aviation"));
 
 // new Modal();
 let mobileMenu = new MobileMenu();

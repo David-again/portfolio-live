@@ -1,6 +1,6 @@
 {
     "name": "portfolio-webpack",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Developed (and will be deployed) using webpack, this page showcases my skills and projects I've worked on.",
     "private": true,
     "scripts": {
@@ -9,7 +9,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "",
+    "author": "David Ogunbanjo",
     "license": "ISC",
     "dependencies": {
         "lazysizes": "^5.3.0",
