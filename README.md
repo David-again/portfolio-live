@@ -21,8 +21,6 @@ _______
 0. Package contents
 1.	How to run - General information
 2.	Input file format
-    - Notes
-    - Assumptions
 3.	Output
 4.	Test Cases
 5.	Performance
