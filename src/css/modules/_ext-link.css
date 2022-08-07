@@ -1,0 +1,25 @@
+/* Work-in-progress: 
+    Plan on using this to style the external link buttons.
+    Should be similar to the Social-media buttons' styling
+*/
+
+.ext-link {
+    color: red;
+}
+
+.external-link {
+    &--themeLight {
+        color: $themeLight;
+        padding: 1.2rem;
+        font-size: 1.5rem;
+        @mixin atMedium {
+            font-size: 2rem;
+            border-radius: 15% 40%;
+        }
+        
+        &:hover {
+            color: $themeDark;
+            background-color: $themeLight;
+        }
+    }
+}
