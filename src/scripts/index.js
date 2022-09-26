@@ -10,10 +10,15 @@ import MobileMenu from './modules/Mobile-Menu';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CurrentProjects from './modules/CurrentProjects';
-import FutureProjects from './modules/FutureProjects';
+import Skills_Group_1 from './components/Skills_Group_1';
+import Skills_Group_2 from './components/Skills_Group_2';
+import CurrentProjects from './components/CurrentProjects';
+import FutureProjects from './components/FutureProjects';
 import ContactForm from './modules/ContactForm';
 import ConstructionPage from './components/ConstructionPage';
+
+ReactDOM.render(<Skills_Group_1 />, document.querySelector("#skills-group-1"));
+ReactDOM.render(<Skills_Group_2 />, document.querySelector("#skills-group-2"));
 
 ReactDOM.render(<CurrentProjects />, document.querySelector("#current-projects"));
 ReactDOM.render(<FutureProjects />, document.querySelector("#future-projects"));
