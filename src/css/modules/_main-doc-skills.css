@@ -58,6 +58,7 @@
 .skill-title {
     display: inline-block;
     width: 160px;
+    text-align: left;
 }
 
 .skill-rating {
