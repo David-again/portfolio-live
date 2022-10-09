@@ -1,7 +1,7 @@
 # Web Developer Portfolio
 ### David Ogunbanjo.
-[GitHub link](https://github.com/David-again/portfolio-live.git)
-
+<!-- [GitHub link](https://github.com/David-again/portfolio-live.git) -->
+For historical context, [click here](https://github.com/David-again/portfolio-webpack) for the old version of my portfolio source code
 _______
 ### Read this first!
 - This is the source code for my (single-page) Online Portfolio.  It provides a feel for my coding style.

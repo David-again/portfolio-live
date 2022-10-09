@@ -1,36 +1,15 @@
 import React from 'react';
-import logo1_portfolio from './projects_img/01-portfolio-5.jpg';
-import logo7_travelsite from './projects_img/07-Travel-site.jpg';
-import logo3_pawtastic from './projects_img/03-pawtastic.jpg';
-import logo4_04b_statistics from './projects_img/04b-statistics.png';
+
+import logo1_portfolio from '../../images/projects/01-portfolio-5.jpg';
+import logo7_travelsite from '../../images/projects/07-Travel-site.jpg';
+import logo3_pawtastic from '../../images/projects/03-pawtastic.jpg';
+import logo4_04b_statistics from '../../images/projects/04b-statistics.png';
 
 function CurrentProjects() {
     return (
         <div>
-            {/* Icon for Update Rate Statistics Project  */}
-                <a href="https://github.com/David-again/ATC-Update-Rate-Statistics" target="_blank">
-                    <div className="main-doc-projects__project-icon">
-
-                        <img 
-                            src={logo4_04b_statistics} 
-                            className="main-doc-projects__project-icon--preview-image lazyload" 
-                            alt="Update Rate Statistics Thumbnail" 
-                        />
-                        <i className="main-doc-projects__project-icon--popout-icon fas fa-external-link-alt"></i>
-                        
-                        <div className="main-doc-projects__project-icon--overlay">
-                            <div className="main-doc-projects__project-icon--text-content">
-                                <h2>Aircraft Update Statistics</h2>
-                                <hr />                                
-                                <p> A python script developed to process aircraft statistcs (using Pandas); </p>
-                                <p> Raw data in .csv format is processed and written to a .JSON file</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
             {/* Icon for My Portfolio source code on github.  */}
-                <a href="https://github.com/David-again/portfolio-webpack" target="_blank">
+                <a href="https://github.com/David-again/portfolio-live" target="_blank">
                     <div className="main-doc-projects__project-icon">
                         
                         <img 
@@ -47,6 +26,28 @@ function CurrentProjects() {
                                     <br /> 
                                     &lt; / &gt;
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+    
+                {/* Icon for Update Rate Statistics Project  */}
+                <a href="https://github.com/David-again/ATC-Update-Rate-Statistics" target="_blank">
+                    <div className="main-doc-projects__project-icon">
+
+                        <img 
+                            src={logo4_04b_statistics} 
+                            className="main-doc-projects__project-icon--preview-image lazyload" 
+                            alt="Update Rate Statistics Thumbnail" 
+                        />
+                        <i className="main-doc-projects__project-icon--popout-icon fas fa-external-link-alt"></i>
+                        
+                        <div className="main-doc-projects__project-icon--overlay">
+                            <div className="main-doc-projects__project-icon--text-content">
+                                <h2>Aircraft Update Statistics</h2>
+                                <hr />                                
+                                <p> A python script developed to process aircraft statistcs (using Pandas); </p>
+                                <p> Raw data in .csv format is processed and written to a .JSON file</p>
                             </div>
                         </div>
                     </div>

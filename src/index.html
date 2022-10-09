@@ -10,6 +10,11 @@
 
     <!-- jQuery (required by slick) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- CSS CDN for React-slick (used for carousel of logos) -->
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+
 
     <!-- Stylesheet for slick (carousel used in the skills section of this page). -->
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" /> -->
@@ -113,55 +118,19 @@
                 <div class="main-doc-skills__text-content">
                     <h2>Development Skills </h2>
                     <!-- <p> Here are some technologies that I have experience working with: </p> -->
-                    A <em><strong> JavaScript Developer</strong></em>, I work mostly with Node.JS and ReactJS on the front-end side of things. I remain open to (and continue to develop myself in) other technologies depending on the problem of the
+                    A <em><strong> JavaScript Developer</strong></em>, I work mostly with Node.JS and ReactJS on the front-end side of things, mixed with some CRUD operations with SQL. I remain open to (and continue to develop myself in) other technologies depending on the problem of the
                     day.
                 </div>
                 <div class="skills-container">
-                    <!-- Skills are rendered as a ReactJS components -->
+                    <!-- Skills and star-ratings are rendered as a ReactJS components -->
                     <div id="skills-group-1"></div>
                     <div id="skills-group-2"></div>
                 </div>
 
-                <div class="main-doc-skills__tech-gallery">
-                    <img class="main-doc-skills__tech-image" src="images/logos/js-es6-logo.png" alt="ECMA Script logo">
-                    <img class="main-doc-skills__tech-image" src="images/logos/reactJS-logo.png" alt="ReactJS logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/nodeJS-logo.png" alt="NodeJS logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/html-logo.png" alt="HTML logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/css-logo.png" alt="CSS logo">
-                    <!-- <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/js-logo.png" alt="JavaScript logo"> -->
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/python-logo.png" alt="JavaScript logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/pandas-logo.png" alt="JavaScript logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/jquery-text-logo.png" alt="jQuery logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/mongoDB-logo.png" alt="MongoDB logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/gcp-logo.png" alt="GCP logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/aws-logo.png" alt="AWS logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/adobe-photoshop-logo.png" alt="Photoshop logo">
-                    <img class="main-doc-skills__tech-image lazyload" data-src="images/logos/bootstrap-logo.png" alt="Bootstrap logo">
-                </div>
-
                 <p>A <s>good pilot</s> <em> professional </em> is always learning! </p>
 
-                <!-- Testbed for Slick -->
-                <!-- <div class="regular slider">
-                    <div>
-                        <h3>1</h3>
-                    </div>
-                    <div>
-                        <h3>2</h3>
-                    </div>
-                    <div>
-                        <h3>3</h3>
-                    </div>
-                    <div>
-                        <h3>4</h3>
-                    </div>
-                    <div>
-                        <h3>5</h3>
-                    </div>
-                    <div>
-                        <h3>6</h3>
-                    </div>
-                </div> -->
+                <!-- Slick Carousel is rendered as a react component (React Slick) -->
+                <div id="skills-tech-carousel"></div>
 
             </div>
         </div>
@@ -198,7 +167,6 @@
         </div>
 
         <div id="under-construction-main">
-
         </div> -->
         
         <!-- contact me section -->

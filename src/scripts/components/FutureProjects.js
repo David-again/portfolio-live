@@ -1,6 +1,6 @@
 import React from 'react';
-import logo5_boarding from './projects_img/05-boarding-pass-3.jpg'
-import logo6_atc from './projects_img/06-ATC.jpg';
+import logo5_boarding from '../../images/projects/05-boarding-pass-3.jpg'
+import logo6_atc from '../../images/projects/06-ATC.jpg';
 
 function FutureProjects() {
     return (

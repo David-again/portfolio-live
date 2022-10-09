@@ -16,14 +16,17 @@
         margin: 2rem 0 0;
     }
 
-    &__tech-image {
+    &__carousel-image {
         height: 50px;
-        margin: 5px 5px;
-        /* @media (min-width:640px) { */
+        margin: auto;
         @mixin atMedium {
             height: 100px;
-            margin: 10px 20px;
+            margin: auto;
         }
+    }
+
+    &__skills-container {
+        /* Restructuring... to-do later! */
     }
 }
 
